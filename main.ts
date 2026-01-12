@@ -18,7 +18,7 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 mySprite.setPosition(21, 83)
 for (let index = 0; index < 4; index++) {
-	
+    mySprite.sayText(":)")
 }
 scene.setBackgroundImage(img`
     5555555555555555555555555555555555566666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
